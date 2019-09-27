@@ -8,17 +8,17 @@ screen = pygame.display.set_mode(size)
 
 
 def draw():
-     # Задаем параметры прямоугольника
+    # Задаем параметры прямоугольника
     rect_color = pygame.Color('white')
     rect_width = 0
     rect_point = [(0, 0), (300, 100)]
     # Рисуем прямоугольник
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
-    rect_color = pygame.Color('black')
+    rect_color = pygame.Color('blue')
     rect_width = 0
-    rect_point = [(0, 0), (10, 300)]
-     # Рисуем прямоугольник
+    rect_point = [(0, 100), (300, 100)]
+    # Рисуем прямоугольник
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
     rect_color_red = pygame.Color('red')
@@ -27,6 +27,11 @@ def draw():
     # Рисуем прямоугольник
     pygame.draw.rect(screen, rect_color_red, rect_point_red, rect_width_red
 
+    rect_color = pygame.Color('black')
+    rect_width = 0
+    rect_point = [(0, 0), (10, 300)]
+    # Рисуем прямоугольник
+    pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
 draw()
 
