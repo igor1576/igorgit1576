@@ -25,7 +25,7 @@ def draw():
     rect_width_red = 0
     rect_point_red = [(0, 200), (300, 100)]
     # Рисуем прямоугольник
-    pygame.draw.rect(screen, rect_color_red, rect_point_red, rect_width_red
+    pygame.draw.rect(screen, rect_color_red, rect_point_red, rect_width_red)
 
     rect_color = pygame.Color('black')
     rect_width = 0
