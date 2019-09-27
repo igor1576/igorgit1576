@@ -3,7 +3,7 @@ import pygame
 pygame.init()
 
 # Считываем размер окна
-size = width, height = 300, 300
+size = width, height = 300, 600
 screen = pygame.display.set_mode(size)
 
 
@@ -29,7 +29,7 @@ def draw():
 
     rect_color = pygame.Color('black')
     rect_width = 0
-    rect_point = [(0, 0), (10, 300)]
+    rect_point = [(0, 0), (10, 600)]
     # Рисуем прямоугольник
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
